@@ -7,10 +7,10 @@ Exploratory Data Analysis of S&P 500 companies using Python, Pandas, and the Yah
 Analyze the fundamental metrics of S&P 500 companies to understand market composition, uncover financial correlations, and spot anomalies across different sectors.
 
 **2. Data Source & Input**
-**Primary Source:** A static dataset (`sp500_companies.csv`).
-**Secondary Source (API):** Live data extraction using the `yfinance` API to impute missing values dynamically.
-**Structure:** Cross-sectional data where each row represents a single S&P 500 company.
-**Key Features:** Sector, Exchange, Market Cap, EBITDA, Revenue Growth, Current Price, and Full-Time Employees.
+* **Primary Source:** A static dataset (`sp500_companies.csv`).
+* **Secondary Source (API):** Live data extraction using the `yfinance` API to impute missing values dynamically.
+* **Structure:** Cross-sectional data where each row represents a single S&P 500 company.
+* **Key Features:** Sector, Exchange, Market Cap, EBITDA, Revenue Growth, Current Price, and Full-Time Employees.
 
 **3. Target Variable / Output (Research Focus)**
 Since this is an Exploratory Data Analysis (EDA) phase, there is no single target variable to predict. The main objective is to identify correlations, 
@@ -27,9 +27,9 @@ The final product is a fully functional, clean pipeline script containing:
 The overarching macroeconomic state of the S&P 500 index and standard sector-level averages.
 
 **6. Tech Stack & Tools**
-**Data Extraction API:** `yfinance`
-**Data Processing:** `pandas`, `numpy`
-**Data Visualization:** `matplotlib`, `seaborn`
+* **Data Extraction API:** `yfinance`
+* **Data Processing:** `pandas`, `numpy`
+* **Data Visualization:** `matplotlib`, `seaborn`
 
 ---
 
